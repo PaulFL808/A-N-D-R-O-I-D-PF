@@ -3,46 +3,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp"
+    android:fitsSystemWindows="true">
 
     <EditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese primer valor"
-        android:inputType="number" />
+        android:inputType="number"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/et2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese segundo valor"
-        android:inputType="number" />
+        android:inputType="number"
+        android:layout_marginBottom="24dp" />
 
     <CheckBox
         android:id="@+id/check1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sumar" />
+        android:text="Sumar"
+        android:layout_marginBottom="8dp" />
 
     <CheckBox
         android:id="@+id/check2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Restar" />
+        android:text="Restar"
+        android:layout_marginBottom="24dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Operar"
-        android:onClick="operar" />
+        android:onClick="operar"
+        android:layout_marginBottom="24dp" />
 
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Resultado"
         android:textSize="18sp"
-        android:layout_marginTop="16dp" />
+        android:textStyle="bold"
+        android:textAlignment="center" />
 
 </LinearLayout>
