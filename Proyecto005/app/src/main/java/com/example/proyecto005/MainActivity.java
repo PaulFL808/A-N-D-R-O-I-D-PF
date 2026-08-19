@@ -1,4 +1,4 @@
-﻿package com.example.proyecto005;
+package com.example.proyecto005;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
