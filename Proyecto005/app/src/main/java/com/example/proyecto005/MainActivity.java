@@ -1,4 +1,4 @@
-package com.example.proyecto005;
+ï»¿package com.example.proyecto005;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         String valor2 = et2.getText().toString();
 
         if (valor1.isEmpty() || valor2.isEmpty()) {
-            tv1.setText("Por favor ingrese ambos números");
+            tv1.setText("Por favor ingrese ambos numeros");
             return;
         }
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 String resu = String.valueOf(divi);
                 tv1.setText(resu);
             } else {
-                tv1.setText("Error: división por cero");
+                tv1.setText("Error: division por cero");
             }
         }
     }
